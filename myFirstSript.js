@@ -16,6 +16,12 @@ clickableImage.addEventListener("click", function () {
 });
 clickableImage.addEventListener("click", function () {
   hello(first_text);
+  hi(second_text);
+  paul(hiddenImage2, clickableImage2);
+  hi(third_text);
+  paul(hiddenImage3, clickableImage3);
+  hi(fourth_text);
+  paul(hiddenImage4, clickableImage4);
 });
 
 hiddenImage.addEventListener("click", function () {
@@ -29,6 +35,12 @@ clickableImage2.addEventListener("click", function () {
 });
 clickableImage2.addEventListener("click", function () {
   hello(second_text);
+  hi(first_text);
+  paul(hiddenImage, clickableImage);
+  hi(third_text);
+  paul(hiddenImage3, clickableImage3);
+  hi(fourth_text);
+  paul(hiddenImage4, clickableImage4);
 });
 hiddenImage2.addEventListener("click", function () {
   paul(hiddenImage2, clickableImage2);
@@ -41,6 +53,12 @@ clickableImage3.addEventListener("click", function () {
 });
 clickableImage3.addEventListener("click", function () {
   hello(third_text);
+  hi(second_text);
+  paul(hiddenImage2, clickableImage2);
+  hi(first_text);
+  paul(hiddenImage, clickableImage);
+  hi(fourth_text);
+  paul(hiddenImage4, clickableImage4);
 });
 hiddenImage3.addEventListener("click", function () {
   paul(hiddenImage3, clickableImage3);
@@ -53,6 +71,12 @@ clickableImage4.addEventListener("click", function () {
 });
 clickableImage4.addEventListener("click", function () {
   hello(fourth_text);
+  hi(second_text);
+  paul(hiddenImage2, clickableImage2);
+  hi(third_text);
+  paul(hiddenImage3, clickableImage3);
+  hi(first_text);
+  paul(hiddenImage, clickableImage);
 });
 hiddenImage4.addEventListener("click", function () {
   paul(hiddenImage4, clickableImage4);

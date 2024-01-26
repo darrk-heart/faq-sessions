@@ -21,6 +21,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 15px;
   padding: 40px;
+  height: 370px;
 }
 .topic {
   display: flex;
@@ -45,4 +46,10 @@ body {
 }
 .bodies p {
   display: none;
+}
+.inside img:hover {
+  cursor: pointer;
+}
+.inner {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
 }
