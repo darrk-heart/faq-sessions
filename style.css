@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(276, 48%, 85%);
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: candara;
+}
+.back img {
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.content {
+  background-color: white;
+  width: 650px;
+  max-width: 40%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 40px;
+}
+.topic {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.topic h1 {
+  font-size: 70px;
+  padding-left: 17px;
+  margin: 0;
+}
+
+.bodies p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.inside {
+  display: flex;
+  justify-content: space-between;
+}
+.bodies p {
+  display: none;
+}
